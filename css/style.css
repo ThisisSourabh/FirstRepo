@@ -1,7 +1,80 @@
-.bodydiv{
-    font-family: sans-serif;
-    background: #878787;
-    align-content: center;
-    margin: auto;
-    width: 600px;
+.body,html{
+    height:100%;
+    font-family:'Rubik Mono One', sans-serif;
+    background-image: url(C:/Users/cgi/Documents/webSite/img/BG-Image.jpg);
+    background-size: cover;
+
+}
+
+
+.hero-image{
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:50%;
+    background-size: cover;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: lightgreen;
+
+}
+.hero-text{
+    text-align: center;
+    color: lightgreen;
+
+}
+.topnav{
+    list-style-type: none;
+    padding-left: 20px;
+    overflow :hidden;
+    color: whitesmoke;
+}
+a{
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding:10px;
+    text-align: center;
+    color: white; 
+    border-style: groove;
+    text-decoration: none;
+    border-radius: 10px;
+    height:20%;
+}
+a:hover{
+    color:lightgreen;
+}
+
+.side-section{
+    color: lightblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    float:left;
+}
+
+.mid-section{
+    color: lightblue;
+    padding-left: 20px;
+    padding-top: 20px;
+    float:left;
+}
+
+.right-section{
+    color: lightblue;
+    padding-left: 20px;
+    padding-top: 20px;
+    float:left;
+}
+
+.footer-control{
+    border-style: groove;
+    border-color: lightgreen;
+    border-radius:20px;
+    color:peachpuff;
+    padding-left: 20px;
+    padding-top: 20px;
+    float:left;
+    width: 300px;
+    padding-bottom: 20px;
 }
