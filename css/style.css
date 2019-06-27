@@ -1,28 +1,21 @@
+
 .body,html{
     height:100%;
     font-family:'Rubik Mono One', sans-serif;
     background-image: url(C:/Users/cgi/Documents/webSite/img/BG-Image.jpg);
     background-size: cover;
-
-}
-
-
-.hero-image{
-    background-size: cover;
-    position: relative;
-    background-position: center;
     background-repeat: no-repeat;
-    height:50%;
-    background-size: cover;
-    border-style: groove;
-    border-radius: 20px;
-    border-color: lightgreen;
+}
+.navbar-text{
+    color:white;
 
 }
-.hero-text{
-    text-align: center;
-    color: lightgreen;
-
+.nav-link{
+    color:white;
+    float: right;
+}
+.navbar-brand:hover{
+    size:20px;
 }
 .topnav{
     list-style-type: none;
@@ -36,45 +29,48 @@ a{
     padding-top: 20px;
     padding:10px;
     text-align: center;
-    color: white; 
-    border-style: groove;
+    color: white;
     text-decoration: none;
-    border-radius: 10px;
     height:20%;
+    text-emphasis :inheri
 }
 a:hover{
-    color:lightgreen;
+    font-size:30px;
+    overflow: hidden;
 }
+.nav-link:hover{
+    color: orange;
 
-.side-section{
-    color: lightblue;
-    padding-left: 20px;
-    padding-top: 40px;
-    float:left;
 }
-
-.mid-section{
-    color: lightblue;
-    padding-left: 20px;
-    padding-top: 20px;
-    float:left;
+.carousel-inner img{
+    width:100%;
+    height:100%;
+    margin:auto;
 }
-
-.right-section{
-    color: lightblue;
-    padding-left: 20px;
-    padding-top: 20px;
-    float:left;
+.carousel-inner{
+    background-color: black;
 }
-
+.carousel-indicators li{
+    align-items: center;
+}
+.container-fluid{
+    background-size:cover;
+}
+#footer-element{
+    background-color:#343a40;
+    height:200px;
+    width:100%;
+}
 .footer-control{
-    border-style: groove;
-    border-color: lightgreen;
-    border-radius:20px;
-    color:peachpuff;
+    background-color: #343a40;
     padding-left: 20px;
     padding-top: 20px;
-    float:left;
-    width: 300px;
+    text-align: left;
+    margin-left:0px;
+    margin-right: 0px;
+    width:100%;
     padding-bottom: 20px;
+}
+.jumbotron{
+    background:darkgray;
 }
